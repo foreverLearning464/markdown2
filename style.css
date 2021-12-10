@@ -21,7 +21,7 @@ body {
 
 
 .App-container {
-  text-align: center;
+  text-align: justify;
   background-color: transparent;
   border-radius: 1vmin;
   min-height: 100vh;
@@ -29,18 +29,23 @@ body {
 }
 
 #editor { 
+    padding: 5vw;
     border-bottom-left-radius: 1vmin;
     border-bottom-right-radius: 1vmin;
     background-color: bisque;
     height: 50vh;
-    width: 99% !important;
+    width: 90% !important;
   }
 
   #editor-label {
+    padding-left: 5vw;
+    padding-right: 5vw;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
     background-color: black;
     display: block;
     height: 19%;
-    width: 100%;
+    width: 90%;
     margin-top: 10vh;
   }
 
@@ -50,19 +55,62 @@ body {
   }
 
   #preview {
+    padding: 5vw;
     border-bottom-left-radius: 1vmin;
     border-bottom-right-radius: 1vmin;
     background-color: bisque;
     color: #282c34;
    
     min-height: 40vh;
-    width: 100% !important;
+    width: 90% !important;
   }
   
   #preview-label {
+    padding-left: 5vw;
+    padding-right: 5vw;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
     background-color: black;
     display: block;
     height: 10vh;
-    width: 100%;
+    width: 90%;
     margin-top: 10vh;
+  }
+
+  code {
+    display: inline-block;
+    background-color: aliceblue;
+  }
+
+  blockquote {
+    display: inline-block;
+    background-color: aqua;
+  }
+
+  table  {
+    display: inline-block;
+    border-collapse: collapse;
+    border: 1px solid black;
+  }
+
+  th {
+    border: 1px solid black;
+    background-color: lightblue;
+  }
+
+  td {
+    border: 1px solid black;
+
+  }
+
+  
+
+  li {
+    text-align: start;
+    
+  }
+
+  img {
+    max-width: 50vw;
+    height: auto;
   }
